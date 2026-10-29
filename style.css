@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    color: #222222;
+}
+.navbar {
+    background-color: #222222;
+    text-align: center;
+    padding: 15px;
+}
+.navbar h2 {
+    color: red;
+    font-size: 28px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    font-size: 15px;
+}
+.navbar a:hover {
+    color: red;
+}
+.home {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.home h1 {
+    color: red;
+    font-size: 35px;
+}
+.home h2 {
+    font-size: 22px;
+}
+.home img {
+    width: 80%;
+    max-width: 800px;
+    height: 300px;
+    border-radius: 10px;
+}
+.button {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: #990000;
+    transition: 0.3s;
+}
+
+.section {
+    text-align: center;
+    padding: 30px 10px;
+}
+.section h1 {
+    color: #cc0000;
+    font-size: 30px;
+}
+.card {
+    display: inline-block;
+    background-color: white;
+    width: 250px;
+    margin: 12px;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    vertical-align: top;
+}
+.card img {
+    width: 100%;
+    height: 180px;
+    border-radius: 5px;
+}
+.card h3 {
+    color: #cc0000;
+}
+.card:hover {
+    background-color: #ffe6e6;
+    transition: 0.3s;
+}
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+th {
+    background-color: #cc0000;
+    color: white;
+}
+th, td {
+    border: 1px solid #999999;
+    padding: 12px;
+    text-align: center;
+}
+form {
+    background-color: white;
+    width: 80%;
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    text-align: left;
+}
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+input, select {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #990000;
+}
+.contact {
+    background-color: #dddddd;
+    text-align: center;
+    padding: 30px;
+}
+.contact h1 {
+    color: #cc0000;
+}
+.footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    color: #222222;
+}
+.navbar {
+    background-color: #222222;
+    text-align: center;
+    padding: 15px;
+}
+.navbar h2 {
+    color: red;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
+.home {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.home h1 {
+    color: red;
+}
+.section {
+    text-align: center;
+    padding: 30px 10px;
+}
+.plan {
+    display: inline-block;
+    background-color: white;
+    width: 250px;
+    margin: 12px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    vertical-align: top;
+}
+.plan h2 {
+    color: #cc0000;
+}
+.plan h1 {
+    color: #222222;
+    font-size: 30px;
+}
+.plan p {
+    font-size: 15px;
+}
+.button {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: #990000;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+th {
+    background-color: #cc0000;
+    color: white;
+}
+th, td {
+    border: 1px solid #999999;
+    padding: 12px;
+    text-align: center;
+}

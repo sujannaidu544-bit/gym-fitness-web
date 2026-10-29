@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>register</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            <div class="section" id="registration">
+        <h1>Gym Registration Form</h1>
+        <p>Fill in your details to register your interest.</p>
+        <form action="#" method="get">
+            <label>Full Name:</label>
+            <input type="text" name="name" required>
+            <label>Age:</label>
+            <input type="number" name="age" min="13" max="100" required>
+            <label>Email:</label>
+            <input type="email" name="email" required>
+            <label>Phone Number:</label>
+            <input type="tel" name="phone" required>
+            <label>Preferred Workout:</label>
+            <select name="workout">
+                <option>Weight Training</option>
+                <option>Cardio</option>
+                <option>Yoga</option>
+                <option>Zumba</option>
+                <option>Strength Training</option>
+            </select>
+            <label>Membership Plan:</label>
+            <select name="membership">
+                <option>Basic</option>
+                <option>Standard</option>
+                <option>Premium</option>
+            </select>
+            <input type="submit" value="Submit Registration">
+        </form>
+    </div>
+    </body>
+</html>
